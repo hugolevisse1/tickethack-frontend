@@ -33,7 +33,7 @@ body{
   }
 
   #home-button{
-    color: rgb(116, 216, 204);
+    color: rgb(95, 180, 151);
     text-decoration: none;
     font-weight:normal;
   }
@@ -121,7 +121,7 @@ body{
 
   #btn-search {
     width: 100%;
-    background-color: rgb(116, 216, 204);
+    background-color: rgb(95, 180, 151);
     text-decoration: none;
     display: inline-block;
     border: none;
@@ -139,6 +139,6 @@ body{
 
 #line {
     height: 3px;
-    background-color: rgb(116, 216, 204);
+    background-color: rgb(95, 180, 151);
     color: white;
 }
