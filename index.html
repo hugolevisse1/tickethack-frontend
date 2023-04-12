@@ -11,10 +11,48 @@
     <div id= 'container'>
         <div id = 'header'>
             <div id= 'tickethack'>
-                <a id = 'home-button' href="index.html">TicketHack</a>
-                
+                <a id = 'home-button' href="index.html"><h2>TicketHack</h2></a>
+            </div>
+            <div id= 'right-btns'>
+                <div>
+                    <a class = 'cartBookBtn' href="cart.html"><p>Cart</p></a>
+                </div>
+                <div>
+                    <a class = 'cartBookBtn' href="bookings.html"><p>Bookings</p></a>
+                </div>
+            </div>
+
+        </div>
+        <div id= 'content-top'>
+            <div id= 'content-top-title'>
+                <h1>Explore the world effortlessly by train!</h1>
+            </div>
+            <div id= 'content-top-text'>
+                <h4>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack</h4>
             </div>
         </div>
+        <div id = 'content-left'>
+            <div id = 'search-bars'>
+                <div id = 'depature'>
+                    <input id = "search" type="text" placeholder="Departure" />
+                </div>
+                <div id = 'arrival'>
+                    <input id= "search" type="text" placeholder="Arrival" />
+                </div>
+            </div>
+            <div id = 'date'>
+                <input type="date">
+            </div>
+            <div id = 'search-btn'>
+                <button id="btn-search">Search</button>
+            </div>   
+        </div>
+        <div id = 'content-right'>
+            <img id= 'train' src="images/train.png" alt="train picture">
+            <div id="line"><p>...............................................</p></div>
+            <p id = 'content-right-text'>It's time to book your future trip</p>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
