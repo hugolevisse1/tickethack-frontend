@@ -6,6 +6,11 @@ document.querySelector('#btn-search').addEventListener('click', function () {
     console.log(arrival);
 
     fetch('http://localhost:3000/trips')
+    // {    ????
+	// 	method: "POST",
+	// 	headers: { "Content-Type" : "application/json" },
+	// 	body: JSON.stringify(userData),
+	// })
     .then(response => response.json())
     .then(searchedData => {
         console.log(searchedData.result);
