@@ -27,7 +27,7 @@ document.querySelector('#btn-search').addEventListener('click', function () {
             for (let i=0; i<data.list.length; i++) {
                 
                 document.querySelector('#content-right').innerHTML += ` 
-                <div class="row">
+                <div class="tripFound">
                  <div id="round-trip"> ${departure} > ${arrival}</div>
                  <div id="time">${date}</div>
                  <div id="price">${data.list[i].price}</div>
