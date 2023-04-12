@@ -1,5 +1,5 @@
-// fetch(`http://localhost:3000/trips/`)
-// 	.then 
+fetch(`http://localhost:3000/trips/`)
+	.then 
 
 // // function addCarts() {
 // // }
